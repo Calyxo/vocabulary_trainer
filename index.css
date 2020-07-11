@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 4px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#translationButtons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#generateButton {
+    height: 50px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sentencesLabel {
+    width: 20em ;
+    align-self: flex-start;
+    padding-right: 5em;
+
+}
+#translationColumn {
+    flex-basis: 25%;
+}
+#translationsLabel {
+    width: 20em;
+}
+
+#translationRussianLabel {
+    width: 20em ;
+    align-self: stretch;
+}
+#translationGermanLabel {
+    width: 20em ;
+    align-self: stretch;
+}
+
+#inputLabel,input {
+    flex-basis: 25%;
+    align-self: flex-end;
+    padding-right: 5em;
+}
+
+
+
+
+.germanFlag {
+    background-image: linear-gradient(black, red, yellow);
+    color: white;
+}
+
+.russianFlag {
+    background-image: linear-gradient(white, blue, red);
+    color: white;
+}
